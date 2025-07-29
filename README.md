@@ -78,19 +78,9 @@ The accompanying Tableau dashboard provides an interactive platform for visualiz
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions to this project. If you have any suggestions for improvements, new features, or encounter any issues, please feel free to open an issue or submit a pull request.
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License. For more details, please refer to the `LICENSE` file (if applicable).
 
 ---
 
-## 📧 Contact
-
-Your Name - [your.email@example.com](mailto:your.email@example.com)
-Project Link: [https://github.com/y
