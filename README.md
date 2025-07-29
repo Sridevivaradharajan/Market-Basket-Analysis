@@ -1,13 +1,11 @@
 # Market-Basket-Analysis
 Market Basket Analysis with Tableau dashboard using Association Rule Mining on grocery transactions.
-## 🚀 Getting Started
 
 ### Prerequisites
 
 To successfully set up and run this project, ensure you have the following installed:
 
 * Python (version 3.7 or higher)
-* Jupyter Notebook
 * Tableau Desktop
 
 ### Installation
@@ -18,35 +16,14 @@ To successfully set up and run this project, ensure you have the following insta
     git clone [https://github.com/yourusername/Market_Basket_Analysis.git](https://github.com/yourusername/Market_Basket_Analysis.git)
     cd Market_Basket_Analysis
     ```
-
-2.  **Create and activate a virtual environment (recommended):**
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate # For Windows: `venv\Scripts\activate`
-    ```
-
-3.  **Install required Python libraries:**
+    
+2.  **Install required Python libraries:**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-### Usage
-
-1.  **Perform Data Preparation and Association Rule Mining:**
-    * Navigate to `notebooks/market_basket_analysis.ipynb`.
-    * Execute all cells within the notebook to process the data, apply the Apriori algorithm, and generate the association rules. The resulting rules will typically be exported in a CSV format, ready for Tableau.
-
-2.  **Explore the Tableau Dashboard:**
-    * Open `tableau/Market Basket Analysis Dashboard.twbx` using Tableau Desktop.
-    * Interact with the dashboard to explore the derived item associations and gain actionable insights.
-
----
-
 ## 📈 Analysis and Insights
-
-The `market_basket_analysis.ipynb` notebook outlines the detailed methodology, encompassing:
 
 * **Data Loading and Exploration:** Initial understanding of the transactional dataset.
 * **Data Preprocessing:** Transformation of raw data into a suitable format, including one-hot encoding, for the Apriori algorithm.
@@ -80,7 +57,7 @@ The accompanying Tableau dashboard provides an interactive platform for visualiz
 
 ## 📄 License
 
-This project is licensed under the MIT License. For more details, please refer to the `LICENSE` file (if applicable).
+This project is licensed under the MIT License. For more details, please refer to the `LICENSE` file.
 
 ---
 
