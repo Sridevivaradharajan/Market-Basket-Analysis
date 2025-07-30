@@ -20,7 +20,6 @@ frequent_itemsets = apriori(basket_df, min_support=0.001, use_colnames=True)
 # Generate association rules with low confidence threshold
 rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.1)
 
-# Optional: Keep only item-pair rules (1 antecedent → 1 consequent)
 rules = rules[(rules['antecedents'].apply(lambda x: len(x)) == 1) &
               (rules['consequents'].apply(lambda x: len(x)) == 1)]
 
